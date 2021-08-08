@@ -6,6 +6,7 @@ import Checkout from './Checkout';
 import classes from './Cart.module.css';
 
 const Cart = props => {
+
     const [isCheckOut, setIsCheckOut] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [didSubmit, setDidSubmit] = useState(false);
